@@ -99,18 +99,16 @@ nano ~/.local/share/applications/antigravity.desktop
 3. Copy and paste the exact configuration properties block layout directly into the editor view:
 ```bash
 [Desktop Entry]
-Version=1.0
-Type=Application
-Name=Antigravity
-Comment=Agentic Editor
-Exec=/opt/antigravity/antigravity --no-sandbox
-Icon=/opt/antigravity/resources/app/resources/linux/code.png
+Name=Antigravity IDE
+Comment=Google Antigravity Agentic Editor
+Exec=/opt/antigravity/antigravity %U
 Terminal=false
+Type=Application
+Icon=utilities-terminal
 Categories=Development;IDE;
+StartupNotify=true
+StartupWMClass=Antigravity
 ```
-
-> [!IMPORTANT]
-> The inclusion of the `--no-sandbox` parameter execution argument inside the string flag block is mandatory. Chromebook containers run on isolated microVM spaces that do not permit double-nested sandboxing profiles by default; omitting this string will cause the UI initialization layer to crash.
 
 4. To close out and write your file alterations to the workspace, press `Ctrl + X`, hit `Y` to verify compilation tracking updates, and press `Enter`.
 
