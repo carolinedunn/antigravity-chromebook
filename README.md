@@ -58,7 +58,7 @@ To bypass the default web portal limitations and execute actions natively in a s
 1. Go to the official website: **Google Antigravity Platform (https://antigravity.google)**.
 2. Download the **Linux version x64** zip package file.
 3. Open the ChromeOS **Files** application, click **Downloads**, and unzip the directory package.
-4. Right-click the extracted folder and select **Share with Linux**.
+4. Open Files and Move the extracted folder into Linux files
 5. Alternatively, shift the unzipped directory straight into the local file container workspace manually using your terminal environment:
 ```bash
 cp -r /mnt/chromeos/MyFiles/Downloads/antigravity ~/antigravity
