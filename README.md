@@ -2,8 +2,8 @@
 
 This repository contains the setup configurations, launcher shortcut scripts, and step-by-step documentation for deploying **Google Antigravity 2.0** locally within the ChromeOS Linux developer environment.
 
-<a href="[https://youtu.be/m9RlRC9JQWk](https://youtu.be/S9D3hCkunfE)">
-  <img src="ep3-play.jpg" width="720" alt="EP2">
+<a href="[[https://youtu.be/m9RlRC9JQWk](https://youtu.be/S9D3hCkunfE)](https://youtu.be/S9D3hCkunfE)">
+  <img src="antigravity-Chromebook-play.jpg" width="720" alt="EP2">
 </a>
 
 [How to Install Google Antigravity 2.0 on Chromebook (CLI & GUI Guide)]([https://youtu.be/m9RlRC9JQWk](https://youtu.be/S9D3hCkunfE))
