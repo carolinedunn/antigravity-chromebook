@@ -69,7 +69,7 @@ cp -r /mnt/chromeos/MyFiles/Downloads/antigravity ~/antigravity
 ### Step 5: Move the Extracted GUI Folder to `/opt`
 To maintain standard application structures and ensure proper global user access across the subsystem, move the platform workspace to your shared opt folder:
 ```bash
-sudo mv ~/antigravity /opt/antigravity
+sudo mv Antigravity-x64 /opt/antigravity
 
 ```
 ---
