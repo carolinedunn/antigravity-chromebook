@@ -104,7 +104,7 @@ Type=Application
 Name=Antigravity
 Comment=Agentic Editor
 Exec=/opt/antigravity/antigravity --no-sandbox
-Icon=/opt/antigravity/resources/app/resources/linux/code.png
+Icon=/opt/antigravity/icon.png
 Terminal=false
 Categories=Development;IDE;
 
