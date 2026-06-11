@@ -99,15 +99,15 @@ nano ~/.local/share/applications/antigravity.desktop
 3. Copy and paste the exact configuration properties block layout directly into the editor view:
 ```bash
 [Desktop Entry]
-Name=Antigravity IDE
-Comment=Google Antigravity Agentic Editor
-Exec=/opt/antigravity/antigravity %U
-Terminal=false
+Version=1.0
 Type=Application
-Icon=utilities-terminal
+Name=Antigravity
+Comment=Agentic Editor
+Exec=/opt/antigravity/antigravity --no-sandbox
+Icon=/opt/antigravity/resources/app/resources/linux/code.png
+Terminal=false
 Categories=Development;IDE;
-StartupNotify=true
-StartupWMClass=Antigravity
+
 ```
 
 4. To close out and write your file alterations to the workspace, press `Ctrl + X`, hit `Y` to verify compilation tracking updates, and press `Enter`.
